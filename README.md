@@ -9,5 +9,5 @@ KukaRoboter.Common.XmlResources.dll
 
 KukaRoboter.LegacyKrcServiceLib.dll
 
-Make sure those DLLs are next to the EXE after building it. You could modify to also e.g. send the status of a digital input as well, so that you only save data when the button is pressed. If you are querying the Cartesian position (e.g. $POS_ACT.X, see commented out parts) note that a tool and base need to be set.
+Make sure those DLLs are next to the EXE after building it. If you are querying the Cartesian position (e.g. $POS_ACT.X, see commented out parts) note that a tool and base need to be set.
 You might have to change some NAT settings in the KUKA UI, but do NOT change any network settings (firewall, IP etc.) on the Windows side of the robot, you've got a good chance of breaking things.
