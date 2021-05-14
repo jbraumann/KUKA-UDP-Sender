@@ -1,7 +1,7 @@
 # KUKA-UDP-Sender
 Description
 
-This is some code we used a while back to send variables from a KUKA robot via UDP to an external system. It's not cleaned up in any way, but should work.
+This is some code we used a while back to send variables from a KUKA robot via UDP to an external system. It's very barebones and not cleaned up in any way, but should work.
 
 It can access KUKA variables through two DLLs that you need to get in the right version from your robot:
 KukaRoboter.Common.XmlResources.dll
