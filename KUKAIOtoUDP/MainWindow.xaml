@@ -1,0 +1,22 @@
+﻿<Window x:Class="KUKAIOtoUDP.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KUKAIOtoUDP"
+        mc:Ignorable="d"
+        Title="KUKA|prc - IOtoUDP" Height="317.995" Width="417.752" Icon="kukatoo_ico2.ico">
+    <Grid>
+        <Label x:Name="label_Copy1" Content="Cycle Time (ms)" HorizontalAlignment="Left" Margin="18.799,19.402,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="CycleTime" HorizontalAlignment="Left" Height="23" Margin="186.799,22.404,0,0" TextWrapping="Wrap" TextAlignment="Center" Text="80" VerticalAlignment="Top" Width="60"/>
+        <Label x:Name="label_Copy2" Content="IP Address" HorizontalAlignment="Left" Margin="18.799,47.402,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="ip" HorizontalAlignment="Left" Height="23" Margin="186.799,50.404,0,0" TextWrapping="Wrap" TextAlignment="Center" Text="172.31.1.148" VerticalAlignment="Top" Width="194"/>
+        <Label x:Name="label_Copy3" Content="Port" HorizontalAlignment="Left" Margin="18.799,75.402,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="port" HorizontalAlignment="Left" Height="23" Margin="186.799,78.404,0,0" TextWrapping="Wrap" TextAlignment="Center" Text="1234" VerticalAlignment="Top" Width="60"/>
+        <Button x:Name="Start_Stop" Content="Start/Stop" HorizontalAlignment="Left" Margin="18.799,117.402,0,0" VerticalAlignment="Top" Width="75" Click="Start_Stop_Click"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="57.747" Margin="18.799,219.248,0,0" VerticalAlignment="Top" Width="190.909" Source="logo_2013_miturl.png"/>
+        <Label x:Name="label" Content="Sent:" HorizontalAlignment="Left" Margin="18.799,152.626,0,0" VerticalAlignment="Top" Width="80.861"/>
+        <Label x:Name="datadisplay" Content="[data]" HorizontalAlignment="Left" Margin="18.799,178.586,0,0" VerticalAlignment="Top" Width="380.953" FontSize="8"/>
+
+    </Grid>
+</Window>
